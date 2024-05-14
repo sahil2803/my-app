@@ -8,6 +8,7 @@ export default function Home() {
       <header className="text-center text-white mb-8">
         <h1 className="text-3xl font-bold">Welcome Tyler </h1>
         <p className="text-lg">Explore and enjoy!</p>
+        <h2>This was supposed to be cool but i cant be asked to convert my night sky to a node-js app</h2>
       </header>
       <div className="w-48 h-48">
         <Image
