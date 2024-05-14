@@ -9,7 +9,7 @@ export default function Home() {
       </header>
       <div className="w-48 h-48">
         <Image
-          src="/next.svg"
+          src="/dice.svg"
           alt="An image"
           layout="fill"
           objectFit="cover"
