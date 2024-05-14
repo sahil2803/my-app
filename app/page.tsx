@@ -1,8 +1,10 @@
 import Image from 'next/image';
 
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-black">
+    <main className="flex min-h-screen items-center justify-center bg-purple-900">
       <header className="text-center text-white mb-8">
         <h1 className="text-3xl font-bold">Welcome to My Website</h1>
         <p className="text-lg">Explore and enjoy!</p>
