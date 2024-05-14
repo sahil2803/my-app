@@ -1,9 +1,21 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gradient-to-b from-zinc-200 to-zinc-50 dark:from-zinc-800 dark:to-zinc-700 flex-col">
-      <h1 className="text-3xl font-bold mb-2">Hello Tyler</h1>
-      <p className="text-lg text-gray-600">Welcome to the  boring page</p>
-
+    <main className="flex min-h-screen items-center justify-center bg-purple-900">
+      <header className="text-center text-white mb-8">
+        <h1 className="text-3xl font-bold">Welcome to My Website</h1>
+        <p className="text-lg">Explore and enjoy!</p>
+      </header>
+      <div className="w-48 h-48">
+        <Image
+          src="/dice.svg"
+          alt="An image"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-full"
+        />
+      </div>
     </main>
   );
 }
